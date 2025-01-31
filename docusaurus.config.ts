@@ -11,7 +11,8 @@ const config: Config = {
   url: 'https://www.uoslife.team',
   baseUrl: '/',
   organizationName: 'uoslife',
-  projectName: 'uoslife-about',
+  projectName: 'about',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
