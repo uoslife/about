@@ -1,0 +1,11 @@
+doyle:
+  name: Doyle Lee
+  title: Software Engineer @ UOSLIFE
+  url: https://www.adrinerdp.co
+  image_url: https://assets.uoslife.com/images/app_icon.png
+  page:
+    permalink: '/doyle'
+  socials:
+    x: adrinerDP
+    linkedin: adrinerdp
+    github: adrinerDP

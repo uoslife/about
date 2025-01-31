@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+    --ifm-color-primary: #4686FF;
+    --ifm-color-primary-dark: #0052E0;
+    --ifm-color-primary-darker: #0646AC;
+    --ifm-color-primary-darkest: #033882;
+    --ifm-color-primary-light: #AACEFF;
+    --ifm-color-primary-lighter: #CDE5FF;
+    --ifm-color-primary-lightest: #E9F3FF;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+    --ifm-color-primary: #4686FF;
+    --ifm-color-primary-dark: #0052E0;
+    --ifm-color-primary-darker: #0646AC;
+    --ifm-color-primary-darkest: #033882;
+    --ifm-color-primary-light: #AACEFF;
+    --ifm-color-primary-lighter: #CDE5FF;
+    --ifm-color-primary-lightest: #E9F3FF;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.footer__link-item {
+    display: flex;
+    align-items: center;
+}
+
+article li {
+    list-style: disc;
+}
